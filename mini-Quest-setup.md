@@ -157,6 +157,7 @@ Setup NFS on slave nodes
 ```
 yum -y install nfs-utils (CentOS)
 apt install nfs-common (Raspbian)
+systemctl status nfs-kernel-server (Raspbian)
 ```
 
 
